@@ -1,0 +1,21 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+#content {
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.password {
+    color: black;
+}
+
+.hidden {
+    display: none;
+  }
+  

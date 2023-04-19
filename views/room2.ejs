@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Me</title>
+    <link rel="stylesheet" href="/css/sty.css">
+</head>
+<body>
+    <div id="content">
+        <h1>Welcome to the first puzzle</h1>
+        <h3>Read Between</h3>
+        <p class="password">435512</p>
+        <h3>The Lines</h3>
+        <form action="/room3/<%= username %>" method="post">
+            <div class="form-group">
+                <label for="pass">Enter the Pin</label>
+                <input type="text" class="form-control" id="pass" name="pass" required>
+            </div>
+            <br>
+            <button type="submit" name="button">Proceed</button>
+        </form>
+        <br>
+        <button id="toggleButton">Hint Please!</button>
+        <div id="content1" class="hidden">
+            <p>Highlighted text is better grasped.</p>
+        </div>
+    </div>
+    <script src="/js/script1.js"></script>
+</body>
+</html>

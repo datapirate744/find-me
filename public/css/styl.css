@@ -1,0 +1,52 @@
+.sentence {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .blanks {
+    font-size: 24px;
+    font-weight: bold;
+    display: inline-block;
+    margin-right: 5px;
+  }
+
+  .keyboard {
+    margin-top: 10px;
+  }
+
+  .button {
+    display: inline-block;
+    padding: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-right: 5px;
+    width: 50px;
+    background-color: #C9A7EB;
+  }
+
+  .button:hover {
+    background-color: #9384D1;
+  }
+
+  .strike {
+    text-decoration: line-through;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+body {
+    text-align: center;
+    background-color: #ECC9EE;
+}
+
+.res {
+    width: 80px;
+    height: 30px;
+    background-color: #C9A7EB;
+}
+
+.res :hover {
+    background-color: #9384D1;
+}

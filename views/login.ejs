@@ -1,0 +1,19 @@
+<%- include("partials/header") -%>
+
+    <div class="my-group">
+        <h1 class="my-heading">LOGIN</h1>
+        <% if(typeof error !== 'undefined') { %>
+            <p class="error"><%= error %></p>
+        <% } %>
+        <form action="/login" method="post">
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="text" class="form-control" id="email" name="email" required>
+                <label for="password">Password</label>
+                <input type="password" class="form-control" id="password" name="password" required minlength="6">
+            </div>
+            <button type="submit" class="btn btn-primary" name="button">LOGIN</button>
+        </form>
+    </div>
+
+<%- include("partials/footer") -%>

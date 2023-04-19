@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Find Me</title>
+  <link rel="stylesheet" href="/css/styl.css">
+</head>
+<body>
+    <h1>Welcome to the first puzzle</h1>
+  <div class="sentence">The quick brown <div class="blanks" id="blank1"></div><div class="blanks" id="blank2"></div><div class="blanks" id="blank3"></div> jumps over the lazy <div class="blanks" id="blank4"></div><div class="blanks" id="blank5"></div><div class="blanks" id="blank6"></div>.</div>
+  <div class="keyboard">
+    <div>
+        <button class="button" onclick="checkLetter('a')">A</button>
+        <button class="button" onclick="checkLetter('b')">B</button>
+        <button class="button" onclick="checkLetter('c')">C</button>
+        <button class="button" onclick="checkLetter('d')">D</button>
+        <button class="button" onclick="checkLetter('e')">E</button>
+    </div>
+    <div>
+        <br>
+        <button class="button" onclick="checkLetter('f')">F</button>
+        <button class="button" onclick="checkLetter('g')">G</button>
+        <button class="button" onclick="checkLetter('h')">H</button>
+        <button class="button" onclick="checkLetter('i')">I</button>
+        <button class="button" onclick="checkLetter('j')">J</button>
+    </div>
+    <div>
+        <br>
+        <button class="button" onclick="checkLetter('k')">K</button>
+        <button class="button" onclick="checkLetter('l')">L</button>
+        <button class="button" onclick="checkLetter('m')">M</button>
+        <button class="button" onclick="checkLetter('n')">N</button>
+        <button class="button" onclick="checkLetter('o')">O</button>
+    </div>
+    <div>
+        <br>
+        <button class="button" onclick="checkLetter('p')">P</button>
+        <button class="button" onclick="checkLetter('q')">Q</button>
+        <button class="button" onclick="checkLetter('r')">R</button>
+        <button class="button" onclick="checkLetter('s')">S</button>
+        <button class="button" onclick="checkLetter('t')">T</button>
+    </div>
+    <div>
+        <br>
+        <button class="button" onclick="checkLetter('u')">U</button>
+        <button class="button" onclick="checkLetter('v')">V</button>
+        <button class="button" onclick="checkLetter('w')">W</button>
+        <button class="button" onclick="checkLetter('x')">X</button>
+        <button class="button" onclick="checkLetter('y')">Y</button>
+    </div>
+    <div>
+        <br>
+        <button class="button" onclick="checkLetter('z')">Z</button>
+    </div>
+  </div>
+  <div>
+    <br>
+    Chances: <span id="chances">3</span>
+  </div>
+  <button class="res" onclick="restartGame()">Restart</button>
+  <script src="/js/script2.js"></script>
+</body>
+</html>

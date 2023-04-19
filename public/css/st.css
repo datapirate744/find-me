@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(/static/1.jpg);
+    background-size: cover;
+    color: black;
+}
+
+#content {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+  
+#text {
+    transform: translateX(0);
+    transition: transform 0.5s ease;
+}
+  
+#text.slide-out {
+    transform: translateX(100%);
+}
+  
+#new-text {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+  
+#new-text.slide-in {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: palevioletred;
+}

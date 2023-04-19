@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Find Me</title>
+  <link rel="stylesheet" href="/css/st.css">
+</head>
+<body>
+  <div id="content">
+    <div id="text">
+      <h1>Welcome <%= username %>!</h1>
+      <p>You find yourself trapped in a mysterious room. Your goal is to escape by solving puzzles and finding clues.</p>
+      <p>Click on the button to start the game and solve your very first puzzle.</p>
+      <button id="btn">Let's Begin!</button>
+    </div>
+    <div id="new-text" class="new-text">
+      <p>It is important to solve every puzzle in order to proceed in the game.</p>
+      <p>Look carefully for the clues from previous puzzles as well.</p>
+      <p>Have fun!!</p>
+      <h3><a href="/room2/<%= username %>">Start</a></h3>
+    </div>
+  </div>
+  <script src="/js/script.js"></script>
+</body>
+</html>
